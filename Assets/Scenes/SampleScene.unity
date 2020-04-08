@@ -746,6 +746,7 @@ GameObject:
   - component: {fileID: 1744752260}
   - component: {fileID: 1744752259}
   - component: {fileID: 1744752258}
+  - component: {fileID: 1744752264}
   - component: {fileID: 1744752263}
   m_Layer: 0
   m_Name: Drone
@@ -838,7 +839,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1744752257}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.1513, y: 1.75, z: -1.7913}
+  m_LocalPosition: {x: -3.1513, y: 0.47, z: -1.7913}
   m_LocalScale: {x: 3.9026, y: 0.5399492, z: 3.9026}
   m_Children:
   - {fileID: 576847489}
@@ -866,6 +867,18 @@ MonoBehaviour:
   backLeftProp: {fileID: 248408908}
   rb: {fileID: 1744752258}
   thrustPerSecond: 20
+--- !u!75 &1744752264
+ConstantForce:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1744752257}
+  m_Enabled: 1
+  m_Force: {x: 0, y: 0, z: 0}
+  m_RelativeForce: {x: 0, y: 0, z: 0}
+  m_Torque: {x: 0, y: 0, z: 0}
+  m_RelativeTorque: {x: 0, y: 0, z: 0}
 --- !u!1001 &6191827334656512598
 PrefabInstance:
   m_ObjectHideFlags: 0
